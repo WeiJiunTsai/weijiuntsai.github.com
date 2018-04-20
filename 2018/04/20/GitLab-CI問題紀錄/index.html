@@ -99,13 +99,13 @@
 
 
 
-<meta name="description" content="起源    GitLab Server建置完成後，設定的Runner只有在開發電腦上測試使用，如果要多人共用時，還是得另外移出單獨使用。因為Build Server環境與開發環境不同的關係，在設置Runner的過程中也遇到了不少錯誤，除了Server需安裝額外的Build tool外，公司AD權限不同及PROXY的關係，也讓問題複雜許多… .gitlab-ci.yml設定：    問題一 Can">
+<meta name="description" content="起源    GitLab Server建置完成後，設定的Runner只有在開發電腦上測試使用，如果要多人共用時，還是得另外移出單獨使用。因為Build Server環境與開發環境不同的關係，在設置Runner的過程中也遇到了不少錯誤，除了Server需安裝額外的Build tool外，公司AD權限不同及PROXY的關係，也讓問題複雜許多…">
 <meta name="keywords" content="GitLab">
 <meta property="og:type" content="article">
 <meta property="og:title" content="GitLab-CI問題紀錄">
 <meta property="og:url" content="http://yoursite.com/2018/04/20/GitLab-CI問題紀錄/index.html">
 <meta property="og:site_name" content="antCai">
-<meta property="og:description" content="起源    GitLab Server建置完成後，設定的Runner只有在開發電腦上測試使用，如果要多人共用時，還是得另外移出單獨使用。因為Build Server環境與開發環境不同的關係，在設置Runner的過程中也遇到了不少錯誤，除了Server需安裝額外的Build tool外，公司AD權限不同及PROXY的關係，也讓問題複雜許多… .gitlab-ci.yml設定：    問題一 Can">
+<meta property="og:description" content="起源    GitLab Server建置完成後，設定的Runner只有在開發電腦上測試使用，如果要多人共用時，還是得另外移出單獨使用。因為Build Server環境與開發環境不同的關係，在設置Runner的過程中也遇到了不少錯誤，除了Server需安裝額外的Build tool外，公司AD權限不同及PROXY的關係，也讓問題複雜許多…">
 <meta property="og:image" content="http://yoursite.com/2018/04/20/GitLab-CI問題紀錄/gitlab配置圖.png">
 <meta property="og:image" content="http://yoursite.com/2018/04/20/GitLab-CI問題紀錄/gitlab-ci-yml-1.png">
 <meta property="og:image" content="http://yoursite.com/2018/04/20/GitLab-CI問題紀錄/Error-1.png">
@@ -113,10 +113,10 @@
 <meta property="og:image" content="http://yoursite.com/2018/04/20/GitLab-CI問題紀錄/Error-2.png">
 <meta property="og:image" content="http://yoursite.com/2018/04/20/GitLab-CI問題紀錄/service-set.png">
 <meta property="og:image" content="http://yoursite.com/2018/04/20/GitLab-CI問題紀錄/job-ok.png">
-<meta property="og:updated_time" content="2018-04-20T08:31:08.932Z">
+<meta property="og:updated_time" content="2018-04-20T08:32:45.963Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GitLab-CI問題紀錄">
-<meta name="twitter:description" content="起源    GitLab Server建置完成後，設定的Runner只有在開發電腦上測試使用，如果要多人共用時，還是得另外移出單獨使用。因為Build Server環境與開發環境不同的關係，在設置Runner的過程中也遇到了不少錯誤，除了Server需安裝額外的Build tool外，公司AD權限不同及PROXY的關係，也讓問題複雜許多… .gitlab-ci.yml設定：    問題一 Can">
+<meta name="twitter:description" content="起源    GitLab Server建置完成後，設定的Runner只有在開發電腦上測試使用，如果要多人共用時，還是得另外移出單獨使用。因為Build Server環境與開發環境不同的關係，在設置Runner的過程中也遇到了不少錯誤，除了Server需安裝額外的Build tool外，公司AD權限不同及PROXY的關係，也讓問題複雜許多…">
 <meta name="twitter:image" content="http://yoursite.com/2018/04/20/GitLab-CI問題紀錄/gitlab配置圖.png">
 
 
@@ -376,14 +376,12 @@
       
 
       
-        <a id="more"></a>
-<h1 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h1><img src="/2018/04/20/GitLab-CI問題紀錄/gitlab配置圖.png" alt="gitlab配置圖.png" title="">   
-<p>GitLab Server建置完成後，設定的Runner只有在開發電腦上測試使用，如果要多人共用時，還是得另外移出單獨使用。<br>因為Build Server環境與開發環境不同的關係，在設置Runner的過程中也遇到了不少錯誤，除了Server需安裝額外的Build tool外，公司AD權限不同及PROXY的關係，也讓問題複雜許多…</p>
-<p>.gitlab-ci.yml設定：<br><img src="/2018/04/20/GitLab-CI問題紀錄/gitlab-ci-yml-1.png" alt="gitlab-ci-yml-1.png" title="">   </p>
+        <h1 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h1><img src="/2018/04/20/GitLab-CI問題紀錄/gitlab配置圖.png" alt="gitlab配置圖.png" title="">   
+<p>GitLab Server建置完成後，設定的Runner只有在開發電腦上測試使用，如果要多人共用時，還是得另外移出單獨使用。<br>因為Build Server環境與開發環境不同的關係，在設置Runner的過程中也遇到了不少錯誤，除了Server需安裝額外的Build tool外，公司AD權限不同及PROXY的關係，也讓問題複雜許多…<br><a id="more"></a><br>.gitlab-ci.yml設定：<br><img src="/2018/04/20/GitLab-CI問題紀錄/gitlab-ci-yml-1.png" alt="gitlab-ci-yml-1.png" title="">   </p>
 <h2 id="問題一-Cannot-find-dnx-coreclr-win-x64-1-0-0-beta5"><a href="#問題一-Cannot-find-dnx-coreclr-win-x64-1-0-0-beta5" class="headerlink" title="問題一 Cannot find dnx-coreclr-win-x64.1.0.0-beta5"></a>問題一 Cannot find dnx-coreclr-win-x64.1.0.0-beta5</h2><img src="/2018/04/20/GitLab-CI問題紀錄/Error-1.png" alt="Error-1.png" title="">   
 <p>Google錯誤原因為未安裝Powershell導致，但之前開發電腦可正常使用，最近換電腦後也開始出現此問題，確認有安裝Powershell仍然出現錯誤，直接開啟Powershell執行指令也是一樣，在改為使用管理員權限執行後，發現是最近AD帳號權限調整的關係…<br>確認Build Server未安裝Powershell，乾脆改成<a href="https://www.nuget.org/downloads" target="_blank" rel="external">下載Nuget軟體</a>，重新設定.gitlab-ci.yml Restore NuGet Packages執行方式:<br><img src="/2018/04/20/GitLab-CI問題紀錄/gitlab-ci-yml-2.png" alt="gitlab-ci-yml-2.png" title=""><br>重跑之後，雖然執行NuGet指令正常執行，但又出現了新的錯誤:<br><img src="/2018/04/20/GitLab-CI問題紀錄/Error-2.png" alt="Error-2.png" title=""><br>檢查了一下Build Server上的Runner資料夾，在builds資料夾中，發現專案裡面少了packages資料夾，難怪跑這段程式卡這麼久..直接開啟Console執行Restore NuGet指令測試，果然又是AD帳號權限問題，在Service設定管理員帳號後，可正常建立packages資料夾。<br><img src="/2018/04/20/GitLab-CI問題紀錄/service-set.png" alt="service-set.png" title=""></p>
 <h2 id="問題二-The-imported-project-“C-Program-Files-x86-MSBuild-Microsoft-VisualStudio-v14-0-WebApplications-Microsoft-WebApplication-targets”-was-not-found"><a href="#問題二-The-imported-project-“C-Program-Files-x86-MSBuild-Microsoft-VisualStudio-v14-0-WebApplications-Microsoft-WebApplication-targets”-was-not-found" class="headerlink" title="問題二 The imported project “C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\WebApplications\Microsoft.WebApplication.targets” was not found."></a>問題二 The imported project “C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\WebApplications\Microsoft.WebApplication.targets” was not found.</h2><p>接著又出現了Build FAILE，原因是Build Server上並未安裝開發工具，除了MSBuild程式外，還需另外安裝相關Build Tool程式。   </p>
-<a href="http://www.microsoft.com/en-us/download/details.aspx?id=48159" target="_blank" rel="external">build tool (2015)</a>   &amp;<br><a href="http://go.microsoft.com/fwlink/?LinkId=528261" target="_blank" rel="external">NET Framework 4.6 targeting Pack.</a>
+<p>1.<a href="http://www.microsoft.com/en-us/download/details.aspx?id=48159" target="_blank" rel="external">build tool (2015)</a><br>2.<a href="http://go.microsoft.com/fwlink/?LinkId=528261" target="_blank" rel="external">NET Framework 4.6 targeting Pack.</a></p>
 <p>如果還是有缺少的元件，可以到C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\目錄下，相對應的visual studio版本資料夾中複製缺少的元件檔案至Server。</p>
 <img src="/2018/04/20/GitLab-CI問題紀錄/job-ok.png" alt="job-ok.png" title="">
 
